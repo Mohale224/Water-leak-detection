@@ -67,7 +67,7 @@ const Dashboard: React.FC = () => {
           iconColor="bg-cyan-600"
           change={{ value: -5, isPositive: true }}
         />
-        <StatCard
+        {/* <StatCard
           title="Active Alerts"
           value={dashboardStats.activeAlerts}
           icon={AlertTriangle}
@@ -87,7 +87,7 @@ const Dashboard: React.FC = () => {
           unit="/100"
           icon={ShieldCheck}
           iconColor="bg-emerald-600"
-        />
+        /> */}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
